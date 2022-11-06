@@ -66,6 +66,43 @@ module.exports = {
         rating: 7,
         
         
+      },  {
+        Titulo: 'Shrek',
+        Genero: 'Animación',
+        rating: 9,
+        
+        
+      },  {
+        Titulo: 'Piratas del caribe',
+        Genero: 'Fantasía',
+        rating: 8,
+        
+        
+      }, {
+        Titulo: 'Fast and furious 9',
+        Genero: 'Acción',
+        rating: 7.5,
+        
+        
+      },  {
+        Titulo: 'Insidious',
+        Genero: 'Terror',
+        rating: 8,
+        
+        
+      },
+       {
+        Titulo: 'Harry Potter',
+        Genero: 'Ficción',
+        rating: 8,
+        
+        
+      },  {
+        Titulo: 'Sucide Squad',
+        Genero: 'Acción',
+        rating: 7,
+        
+        
       },
     ], {});
     

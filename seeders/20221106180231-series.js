@@ -55,7 +55,7 @@ module.exports = {
         
       },{
         Titulo: 'Lucifer',
-        Genero: 'Fantasia',
+        Genero: 'Fantasía',
         rating: 7.5,
         capitulo: false,
         teatro: false
@@ -79,7 +79,7 @@ module.exports = {
         
       },{
         Titulo: 'Doctor Who',
-        Genero: 'Fantasia',
+        Genero: 'Fantasía',
         rating: 6,
         capitulo: false,
         teatro: false
@@ -98,6 +98,23 @@ module.exports = {
         Genero: 'Comedia',
         rating: 10,
         capitulo: false,
+        teatro: false
+        
+        
+      }
+      ,{
+        Titulo: 'Los anillos del poder',
+        Genero: 'Fantasía',
+        rating: 3,
+        capitulo: true,
+        teatro: false
+        
+        
+      },{
+        Titulo: 'Arcane',
+        Genero: 'Fantasía',
+        rating: 7.5,
+        capitulo: true,
         teatro: false
         
         
