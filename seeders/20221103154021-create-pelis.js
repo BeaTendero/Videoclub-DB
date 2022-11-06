@@ -20,7 +20,7 @@ module.exports = {
       },  {
         Titulo: 'Demon Slayer',
         Genero: 'Animación',
-        rating: 9,
+        rating: 9.5,
         
         
       },  {
