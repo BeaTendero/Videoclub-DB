@@ -41,7 +41,7 @@ module.exports = {
       type: 'foreign key',
       name: 'id_producto',
       references: {
-        table: 'productos',
+        table: 'pelis',
         field: 'id_producto'
       },
       onDelete: 'cascade',

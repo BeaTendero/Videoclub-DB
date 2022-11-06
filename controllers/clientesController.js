@@ -11,16 +11,7 @@ clienteController.getClientes = (req, res) => {
 
 clienteController.getPedidosById = async (req, res) => {
     try {
-        let resp = await models.cliente.findAll({
-            where: { id_cliente: req.params.id },
-            include: {
-                model: models.pedido,
-                attributes: ['fecha', 'cantidad', 'id_producto'],
-                exclude: ['clienteIdCliente' ]
-            },
-            attributes: ['email'],
-            exclude: ['clienteIdCliente' ]
-        })
+        let resp = await models.cliente.findAll()
         res.send(resp)
     } catch (err) {
         res.send(err)
