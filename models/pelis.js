@@ -1,3 +1,6 @@
+'use strict';
+
+
 const { DataTypes, Mdoel, Model } = require('sequelize');
 const sequelize = require('../db/db');
 const { init } = require('./pelis');
