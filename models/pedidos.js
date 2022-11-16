@@ -2,6 +2,9 @@
 const {
   Model
 } = require('sequelize');
+
+
+
 module.exports = (sequelize, DataTypes) => {
   class pedido extends Model {
     /**
@@ -11,8 +14,10 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      pedido.belongsTo(models.producto, { foreignKey: 'id_producto' })
-      pedido.belongsTo(models.cliente, { foreignKey: 'id_cliente' })
+      pedido.belongsTo(models.Peli, { foreignKey: 'id_pelis' })
+      pedido.belongsTo(models.Serie, { foreignKey: 'id_series' })
+
+      pedido.belongsTo(models.Cliente, { foreignKey: 'id_cliente' })
     }
   }
   pedido.init({

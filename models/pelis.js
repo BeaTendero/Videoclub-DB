@@ -3,6 +3,7 @@ const sequelize = require('../db/db');
 const { init } = require('./pelis');
 
 class Peli extends Model { };
+module.exports = (sequelize, DataTypes) => {
 
 Peli.init({
     id_peli: {
@@ -31,4 +32,5 @@ Peli.init({
     timestamps: false
 });
 
-module.exports = Peli
+return Peli;
+}

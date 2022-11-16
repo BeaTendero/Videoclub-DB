@@ -1,9 +1,11 @@
-const{ DataTypes, Model } = require('sequelize');
-const sequelize = require('../db/db');
-const { init } = require('./clientes')
+'use strict';
+
+const{ Model } = require('sequelize');
 
 class Cliente extends Model {};
 
+module.exports = (sequelize, DataTypes) => {
+    
 Cliente.init({
     mail: {
         type: DataTypes.STRING,
@@ -33,5 +35,5 @@ Cliente.init({
     freezeTableName: true,
     timestamps: false
 });
-
-module.exports = Cliente;
+return Cliente;
+}

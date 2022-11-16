@@ -3,6 +3,8 @@ const sequelize = require('../db/db');
 const { init } = require('./series');
 
 class Serie extends Model { };
+module.exports = (sequelize, DataTypes) => {
+
 
 Serie.init({
     id_serie: {
@@ -33,4 +35,5 @@ Serie.init({
     timestamps: false
 });
 
-module.exports = Serie
+return Serie;
+}
