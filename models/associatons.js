@@ -1,6 +1,5 @@
 const cliente = require('./clientes');
 const Orders = require('./orders');
-const pelis = require('./pelis');
 const Peli = require('./pelis');
 const serie = require('./series');
 
